@@ -1,0 +1,25 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ruby temporary files
+*.log
+*.tmp
+*.swp
+
+# Environment files
+.env
+
+# Bundler
+.bundle/
+vendor/bundle/
+
+# Coverage / test
+coverage/
+
+# IDE files
+.idea/
+.vscode/
+
+# Data files (якщо не хочеш пушити локальні дані)
+data.json
